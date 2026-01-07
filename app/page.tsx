@@ -58,6 +58,11 @@ export default async function Home() {
         <strong>Note:</strong> If <code>AWS_SESSION_TOKEN</code> appears above but you only set
         <code>AWS_ACCESS_KEY_ID</code> and <code>AWS_SECRET_ACCESS_KEY</code>, Vercel is injecting it.
       </p>
+
+      <h2>API Route Check</h2>
+      <p>
+        <a href="/api/check">/api/check</a> - Compare env vars in API route vs server component above
+      </p>
     </main>
   );
 }
